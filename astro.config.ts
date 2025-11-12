@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-
+  site: 'https://affilirator.github.io/astro-template/',
   integrations: [
     tailwind({
       applyBaseStyles: false,
